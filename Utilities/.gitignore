@@ -1,0 +1,12 @@
+/DuplicateSymbolException.class
+/SymbolTable.class
+/SymbolTableScope.class
+/OpCodeWriter.class
+/SemanticAnalyzer.class
+/BackendManager.class
+/IRWriter.class
+/CFGMIPSAccumulator.class
+/NaiveMIPSWriter.class
+/VariableRegisterInfo.class
+/BasicBlockBuilder.class
+/MIPSAssemblyTextWriter.class

@@ -1,0 +1,15 @@
+/MainVisitor.class
+/FunctionVisitor.class
+/TypeVisitor.class
+/VariableVisitor.class
+/ProgramVisitor.class
+/TypeIDVisitor.class
+/ConstantLiteralVisitor.class
+/ExpressionVisitor.class
+/ParameterVisitor.class
+/StatementListVisitor.class
+/StatementVisitor.class
+/LValueVisitor.class
+/AdditiveExpressionTailVisitor.class
+/MultiplicativeExpressionTailVisitor.class
+/TypeDeclarationVisitor.class

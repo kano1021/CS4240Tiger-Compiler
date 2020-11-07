@@ -1,0 +1,43 @@
+pow:
+breq $4, $0, pow_end
+mul $2, $4, $2
+addi $4, $4, -1
+jmp pow
+pow_end:
+sub $2, $3, $4
+sub $5, $4, $6
+set 7, 0, 6
+add $8, $9, $10
+add $11, $10, $12
+set 7, 0, 12
+mul $13, $14, $15
+mul $16, $15, $17
+set 7, 0, 17
+div $18, $19, $20
+div $21, $20, $22
+set 7, 0, 22
+addi $sp, $sp, -4
+lw $3, ($sp)
+addi $sp, $sp, -4
+lw $4, ($sp)
+add $3, $23, $0
+add $4, $24, $0
+call pow
+add $25, $2, $0
+lw $4, ($sp)
+addi $sp, $sp, 4
+lw $3, ($sp)
+addi $sp, $sp, 4
+addi $sp, $sp, -4
+lw $3, ($sp)
+addi $sp, $sp, -4
+lw $4, ($sp)
+add $3, $26, $0
+add $4, $25, $0
+call pow
+add $27, $2, $0
+lw $4, ($sp)
+addi $sp, $sp, 4
+lw $3, ($sp)
+addi $sp, $sp, 4
+set 7, 0, 27

@@ -1,0 +1,12 @@
+main
+let
+
+	var x : int := 0;
+	var y : float := 1;
+	var X: array [100] of float;
+	
+in
+begin
+	y:=X[1.1] + 0.01;
+
+end
